@@ -12,8 +12,8 @@ function init(){
             optionsMenu.append("option").text(id).property("value", id);
         });
 
-        let default_sample = data[0];
-        console.log(default_sample);
+        let default_sample = samples[0];
+
         barChart(default_sample);
         bubbleChart(default_sample);
         metadataCard(default_sample);
